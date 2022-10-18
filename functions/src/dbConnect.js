@@ -1,6 +1,6 @@
-import { initializeApp, cert, getApps } from "firebase-admin";
+import { initializeApp, cert, getApps } from "firebase-admin/app";
 
-import { getFirestore } from "firebase-admin";
+import { getFirestore } from "firebase-admin/firestore";
 
 import serviceAccount from "../secrets.js";
 
